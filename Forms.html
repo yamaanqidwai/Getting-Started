@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms Practise</title>
 </head>
+
 <body>
     <!--     
     ID used for,
@@ -13,9 +15,37 @@
      -->
     <form action="http://www.example.com/login.php" method="post" id="login">
         <table>
-            <tr><th>Username: </th><td><input type="text" name="username" maxlength="15" id="name"></td></tr>
-            <tr><th>Password: </th><td><input type="password" name="password" id="md5"></td></tr>
+            <tr>
+                <th>Username: </th>
+                <td><input type="text" name="username" maxlength="15" id="name"></td>
+            </tr>
+            <tr>
+                <th>Password: </th>
+                <td><input type="password" name="password" maxlength="15" id="md5"></td>
+            </tr>
         </table>
+        <br />
+        <b>Hows the form? </b>
+        <br />
+        <textarea name="review" id="review" cols="30" rows="5"></textarea>
+        <br />
+        <br />
+        <b>Please select the quality of the form</b><br />
+        <input checked="checked" type="radio" name="quality" id="R10"><b>Best</b>
+        <input type="radio" name="quality" value="Good" id="R8"><b>Good</b>
+        <input type="radio" name="quality" value="Average" id="R6"><b>Average</b>
+        <input type="radio" name="quality" value="Poor" id="R4"><b>Poor</b>
+        <input type="radio" name="quality" value="Pathetic" id="R2"><b>Pathetic</b>
+        <br />
+        <br />
+        <b>Which topic intrigues you?</b><br />
+        <input type="checkbox" name="topic" value="Science" id="topic"><b>Science</b>
+        <input type="checkbox" name="topic" value="Entertainment" id="topic"><b>Entertainment</b>
+        <input type="checkbox" name="topic" value="Technology" id="topic"><b>Technology</b>
+        <input type="checkbox" name="topic" value="Arts & Craft" id="topic"><b>Arts & Craft</b>
+        
+
     </form>
 </body>
+
 </html>
