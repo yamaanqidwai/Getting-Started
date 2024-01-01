@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    
+    
+    <!-- ID is used to uniquely identify any html element.
+    This way we can link anything to that element.
+    ID attribute is universal attribute which means that it can be fit with any html element. 
+    -->
+    <p id="IDexample"></p>
+
+
+    <!-- TYPE attribute tells the server what type of text is being entered.
+    It has several different values and plays critical role in creating different yet all input based elements(elements to take input). 
+    -->
+    <input type="">
+
+    
+    <!-- Action(attribute) bata ta hai k kaha ja k is form ko enter karna hai -->
+    <!-- Method(attribute) bata ta hai k is form se hoga kiya database k sath
+    POST Method is used in addition, deletion or replacement of data in the database... Typically used in Lengthy Forms
+    GET Method is used just to retrieve data from database... Typically used in Short Forms -->
+    <form action="http://xyz/" method="post"></form>
+
+
+    <!-- Input Any peice of text but only in a single line -->
+    <!-- Attribute 
+        Maxlength = ser the user's word count limit
+        Size = control the width of form control(input element).
+        HOWEVER CSS is to be used to control the width of any element.
+        Size="1" means that only one character could be seen by user at a time in one line.
+    -->
+    <input type="text" size="" maxlength="">
+
+    
+    <!-- Input your password.
+    Hides the text entered. -->
+    <!-- Attribute
+    name = the name of the input, which is sent to the server with the input the user enters.
+    Definition: 
+        When users enter information into a form, the server needs to know which form control each piece of data was entered into. (For example, in a login form, the server needs to know what has been entered as the username and what has been given as the password.) Therefore, each form control requires a name attribute. The value of this attribute identifies the form control and is sent along with the information they enter to the server.
+    Easier Definition: 
+        name basically is an id for the data being entered but the server uses this ID to know through which form control(input method) was the data entered. For reference name is a barcode that tells the barcode reader(server) about the price of product(data) and hence the price(data) is added in the bill accordingly(added in the database/server).  
+    -->
+    <input type="password" name="" id="" maxlength="" size="">
+
+    
+    <!-- Input text on multiple lines -->
+    <!-- Attribute
+        cols = number of columns to show. HOWEVER cols to be controlled through CSS
+        rows = number of rows to show. HOWEVER rows to be controlled through CSS
+        placeholder = what to show to user until he clicks that particular set of input field 
+    -->
+    <textarea name="" id="" cols="30" rows="10" placeholder="Enter your text here"></textarea>
+
+
+    <!-- Input only one option/choice from multiple options -->
+    <!--Attribute 
+    Value = used to send alternative data to server -->
+    <input type="radio" name="" id="" value="">
+    
+    
+    <!-- Input your one or more choices -->
+    <input type="checkbox" name="" id="">
+
+
+    <input type="button" value="">
+    <input type="date" name="" id="">
+    <input type="email" name="" id="">
+    <input type="url" name="" id="">
+    <input type="file" name="" id="">
+    <input type="hidden" name="">
+    <input type="image" src="" alt="">
+    <input type="submit" value="">
+    <input type="tel" name="" id="">
+    <input type="time" name="" id="">
+</body>
+
+</html>

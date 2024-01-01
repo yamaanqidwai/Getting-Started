@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Usage Survey</title>
+</head>
+
+<body>
+    <!--     
+    ID used for,
+    username = name
+    password = md5
+     -->
+    <!-- failed 
+    <form action="" method="get">
+        <select name="Page" id="Page">
+            <option value="Description"><a href="">Description of Project FORM</a></option>
+            <option value="Source Code"><a href="Forms.txt">Source Code</a></option>
+            <option value="Table"><a href="E:\Getting Started\Tables.html">Table</a></option>
+            <option value="My First Practise"><a href="E:\Getting Started\Index.html">My First Practise</a></option>
+            <option value="images"><a href="E:\Getting Started\Images\">images</a></option>
+        </select>
+    </form> -->
+
+    <form action="http://www.example.com/login.php" method="post" id="Social Media Usage">
+
+
+        <b>Hows the form? </b>
+        <br />
+        <textarea name="review" id="review" maxlength="250" cols="35" rows="5"></textarea>
+        <!-- columns and rows of text to be displayed is to be done through css instead but for now i did it through html-->
+        <br />
+        <br />
+
+        <b>What is your social media consumption</b><br>
+        <label><input type="radio" name="usage time" value="hater" id="category 1"><b>less than 1 hour</b></label><br>
+        <label><input type="radio" name="usage time" checked="checked" value="average" id="category 2"><b>1-2
+                hours</b></label><br>
+        <label><input type="radio" name="usage time" value="addicted" id="category 3"><b>2-4 hours</b></label><br>
+        <label><input type="radio" name="usage time" value="unemployed" id="category 4"><b>4-6 hours</b></label><br>
+        <label><input type="radio" name="usage time" value="extremly idle" id="category 5"><b>more than 6
+                hours</b></label><br>
+
+        <br />
+
+        <b>Which Social Media Platform do you use?</b><br>
+        <input type="checkbox" name="Platform" value="Instagram" id="Instagram"><b>Instagram</b>
+        <input type="checkbox" name="Platform" value="Facebook" id="Facebook"><b>Facebook</b>
+        <input type="checkbox" name="Platform" value="Youtube" id="Youtube"><b>Youtube</b>
+        <input type="checkbox" name="Platform" value="WhatsApp" id="WhatsApp"><b>WhatsApp</b>
+        <input type="checkbox" name="Platform" value="Tiktok" id="Tiktok"><b>Tiktok</b><br>
+        <input type="checkbox" name="Platform" value="Twitter" id="Twitter"><b>Twitter</b>
+        <input type="checkbox" name="Platform" value="Pinterest" id="Pinterest"><b>Pinterest</b>
+        <input type="checkbox" name="Platform" value="Reddit" id="Reddit"><b>Reddit</b>
+        <input type="checkbox" name="Platform" value="Discord" id="Discord"><b>Discord</b>
+        <input type="checkbox" name="Platform" value="LinkedIn" id="LinkedIn"><b>LinkedIn</b>
+        <input type="checkbox" name="Platform" value="Snapchat" id="Snapchat"><b>Snapchat</b><br>
+
+        <br>
+
+        <b>Is there any other Social Media Platform do use?</b><br>
+        <textarea name="More Platform" id="" maxlength="15" cols="15" rows="2"></textarea><br>
+
+        <br />
+
+        <b>Which Social Media Platform is your favourite?</b><br>
+        <select name="Favourite Platform" id="Favourite">
+            <option selected="selected" value="Instagram">Instagram</option>
+            <option value="Facebook">Facebook</option>
+            <option value="Youtube">Youtube</option>
+            <option value="WhatsApp">WhatsApp</option>
+            <option value="Tiktok">Tiktok</option>
+            <option value="Twitter">Twitter</option>
+            <option value="Pinterest">Pinterest</option>
+            <option value="Reddit">Reddit</option>
+            <option value="Discord">Discord</option>
+            <option value="LinkedIn">LinkedIn</option>
+            <option value="Snapchat">Snapchat</option>
+            <option value="Other">Other...</option>
+        </select><br>
+
+        <br>
+
+        <b>What appears mostly on your feed? (You can select more than one option by holding down control on a PC or
+            command key on a Mac while selecting different options.)</b><br>
+        <select name="Favourite Platform" multiple="multiple" size="4" id="Feed">
+            <option selected="selected" value="Random Information">Random Information</option>
+            <option value="Anime">Anime</option>
+            <option value="Self Development">Self Development</option>
+            <option value="Religious">Religious</option>
+            <option value="Music">Music</option>
+            <option value="Programming">Programming</option>
+            <option value="History">History</option>
+            <option value="Astrology">Astrology</option>
+            <option value="Cooking">Cooking</option>
+            <option value="Technology">Technology</option>
+            <option value="General Knowledge">General Knowledge</option>
+            <option value="Garbage">Other...</option>
+        </select><br>
+
+        <br>
+
+        <b>Send us your Browser History</b><br>
+        <input type="file" name="user file" id="file input"><br>
+        <br>
+
+
+        <fieldset>
+            <button>
+                <input type="submit" value="Submit Form">
+                <input type="image" src="./../Images/submit.png" alt="submit button" width="25" height="25">
+                <input type="hidden" value="ip address">
+            </button>
+        </fieldset>
+        <br><br>
+        <hr>
+        <fieldset>
+        <a href="./../xyz.html">Link to other pages</a><br>
+        <b>Subscribe to our other newsletter regarding other researches!</b><br>
+        <input type="text" name="email">
+        <input type="image" src="./../Images/Subscribe image.png" width="85" height="35">
+        <label for="username">Username:</label>
+        <input type="text" name="username" required="required" /></title><br />
+        <label>Age: <input type="text" name="age" /></label>
+    </fieldset>
+
+    </form>
+</body>
+
+</html>
